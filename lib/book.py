@@ -4,6 +4,7 @@ class TestBook:
     def __init__(self, title, page_count):
         self.title = title
         self.page_count=page_count
+        self.page_count = None
     @decorater
     def title(self):
         pass
